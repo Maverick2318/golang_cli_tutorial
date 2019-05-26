@@ -3,25 +3,45 @@ A simple example of writing a CLI using Golang using the Cobra module.
 Example output:
 
 C02VQ1S6HTDD:golang_cli_tutorial nsiddiq$ ./main
+
 Using config file: /Users/nsiddiq/.golang_cli_tutorial.yaml
+
 hooray my root command works
+
 C02VQ1S6HTDD:golang_cli_tutorial nsiddiq$ ./main sum
+
 Using config file: /Users/nsiddiq/.golang_cli_tutorial.yaml
+
 No arguments given. Expected 1 or more integers.
+
 Usage:
+
   golang_cli_tutorial sum [flags]
 
+
 Flags:
+
   -h, --help   help for sum
 
+
 Global Flags:
+
       --config string   config file (default is $HOME/.golang_cli_tutorial.yaml)
+
 C02VQ1S6HTDD:golang_cli_tutorial nsiddiq$ ./main sum a b
+
 Using config file: /Users/nsiddiq/.golang_cli_tutorial.yaml
+
 ERROR: Conversion of value a to integer failed.
+
 C02VQ1S6HTDD:golang_cli_tutorial nsiddiq$ ./main sum 1 1
+
 Using config file: /Users/nsiddiq/.golang_cli_tutorial.yaml
+
 The sum of your integers is: 2
+
 C02VQ1S6HTDD:golang_cli_tutorial nsiddiq$ ./main sum 1 1 1 2
+
 Using config file: /Users/nsiddiq/.golang_cli_tutorial.yaml
+
 The sum of your integers is: 5
