@@ -1,4 +1,4 @@
-A simple example of writing a CLI using Golang using the Cobra module.
+A simple example of writing a CLI using Golang using the Cobra module: https://github.com/spf13/cobra
 
 Example output:
 
