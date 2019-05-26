@@ -15,6 +15,26 @@ C02VQ1S6HTDD:golang_cli_tutorial nsiddiq$ ./golang_cli_tutorial
 
 hooray my root command works
 
+C02VQ1S6HTDD:golang_cli_tutorial nsiddiq$ ./golang_cli_tutorial sun
+
+Error: unknown command "sun" for "golang_cli_tutorial"
+
+
+Did you mean this?
+
+	sum
+
+
+Run 'golang_cli_tutorial --help' for usage.
+
+unknown command "sun" for "golang_cli_tutorial"
+
+
+Did you mean this?
+
+	sum
+
+
 C02VQ1S6HTDD:golang_cli_tutorial nsiddiq$ ./golang_cli_tutorial sum
 
 No arguments given. Expected 1 or more integers.
